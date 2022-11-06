@@ -1,0 +1,281 @@
+/* start Buttuon */
+.startProjectBtn{
+    background-color: #616BF1;
+}
+/* hero sectiom */
+.hero{
+    background-image: url("/imgs/backg.png");
+    background-repeat: no-repeat;
+    background-position:center; 
+    padding:12rem 0;
+
+    height:90vh;
+}
+
+.startProjectBtn:hover{
+    background-color: white !important;
+    border: 1px solid #616BF1 !important;
+    color: #616BF1 !important;
+}
+.startProjectBtn:hover svg.rocket path{
+     fill: #616BF1; 
+}
+.cloud{
+   position:absolute;
+   right:0;
+   top: 0rem;
+   -webkit-animation: top 1.5s infinite  alternate;
+    animation: top 1.5s infinite  alternate;  
+}
+.cloud2{
+   position:absolute;
+   left:6rem;
+   top:-2rem;
+   -webkit-animation: topl 1.5s infinite  alternate;
+    animation: topl 1.5s infinite  alternate;  
+}
+.p1{
+   position:absolute;
+   left:20rem;
+   top:-0.5rem;
+   -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.p2{
+   position:absolute;
+   right:15rem;
+   top:-1.5rem;
+   -webkit-animation: movern 1s infinite  alternate;
+    animation: movern 1s infinite  alternate;
+   
+}
+.p3{
+   position:absolute;
+   right:8rem;
+   top:-3rem;
+   -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.setting{
+   position:absolute;
+   right:6rem;
+   top:3.5rem;
+   -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.user{
+   position:absolute;
+   right:26rem;
+   top:2rem;
+   -webkit-animation: movern 1.5s infinite  alternate;
+    animation: movern 1.5s infinite  alternate;
+
+}
+.css{
+   position:absolute;
+   right:12rem;
+   top:6rem;
+   -webkit-animation: movern 1s infinite  alternate;
+    animation: movern 1s infinite  alternate;
+
+}
+.screens{
+    margin-top:5rem;
+    -webkit-animation: movern 1.5s infinite  alternate;
+    animation: movern 1.5s infinite  alternate;
+
+}
+/* section 2 */
+.rocketPerson{
+   position: relative;
+   right: 3rem;
+   transform: Y(0.5);
+   -webkit-animation: mover 0.7s infinite  alternate;
+    animation: mover 0.7s infinite  alternate;    
+}
+/* css animation  */
+/* up down negative */
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10x); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+/* up down positive */
+@-webkit-keyframes movern {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(15x); }
+}
+@keyframes movern {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(15px); }
+}
+/* left right negative */
+@-webkit-keyframes top {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+@keyframes top {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-30px); }
+}
+/* right left positive */
+@-webkit-keyframes topl {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+}
+@keyframes topl {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(30px); }
+}
+
+.cirlcs{
+    background-image: url("/imgs/circles.png");
+    background-repeat: no-repeat;
+    background-position: left center; 
+}
+.Grouprocets{
+    position: relative;
+    left:-3.5rem;
+    -webkit-animation: mover 0.7s infinite  alternate;
+    animation: mover 0.7s infinite  alternate;    
+}
+
+.section2{
+    background-color: #FBFBFB;
+}
+
+/* numbers section */
+.numbers{
+    background-image: url("/imgs/numbers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fit; 
+}
+.team{
+    background-color: #FBFBFB;
+}
+.person1{
+    background-image: url("/imgs/person1.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.person2{
+    background-image: url("/imgs/person2.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.person3{
+    background-image: url("/imgs/person3.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.person4{
+    background-image: url("/imgs/person4.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.teamName{
+    position: absolute;
+    margin-top: -5rem;
+    
+}
+.teamnameSpan{
+color: #616BF1;
+}
+
+.customerReviews{
+    background-image: url("/imgs/customer.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+.contactus{
+    background-color: #FBFBFB;
+}
+/* last section */
+.map{
+    background-image: url("/imgs/ss.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.map{
+padding:5px;
+padding-top:10px;
+}
+p{
+    color: #646464 !important;
+    font-size: 1.15rem;
+}
+h1{
+    letter-spacing: 0.15rem !important;
+
+}
+.col-xs-12.col-md-4>.container.border.rounded-4{
+    height:17rem;
+    line-height: 1.7rem;
+}
+.col-xs-12.col-md-4>.container.border.rounded-4:hover{
+   border: 1px solid #d5d5d5 !important;
+}
+.col-xs-12.col-md-4>.container.border.rounded-4:hover svg{
+   animation: shake 2s;
+  animation-iteration-count: infinite;
+
+}
+/* shaking animation on hover cards */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  .btn-outline-secondary{
+    border:1px solid #C4C4C4 !important;
+  }
+  .btn.btn-outline-secondary.rounded-3.px-4{
+    color: #71787B !important;
+  }
+  a.btn.btn-outline-secondary.rounded-3.px-4:hover{
+    color: #fff !important;
+    background-color: #616BF1!important;
+    border: 1px solid #616BF1 !important;
+  }
+
